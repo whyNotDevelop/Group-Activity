@@ -36,8 +36,10 @@ This Python script demonstrates **Dijkstra’s Algorithm** to find the shortest 
 ---
 
 ## 📂 Repository Structure
-Group-Activity/
+Group-Activity/ 
+
 ├─ ShortestPath.png # Visual diagram of the graph
+
 └─ shortest_path.py # Dijkstra’s Algorithm implementation & greedy demo
 
 
