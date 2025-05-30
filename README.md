@@ -36,4 +36,46 @@ This Python script demonstrates **Dijkstra’s Algorithm** to find the shortest 
 ---
 
 ## 📂 Repository Structure
+Group-Activity/
+├─ ShortestPath.png # Visual diagram of the graph
+└─ shortest_path.py # Dijkstra’s Algorithm implementation & greedy demo
+
+
+---
+
+## 🚀 Getting Started
+
+1. **Clone the repo**  
+   ```bash
+   git clone https://github.com/whyNotDevelop/Group-Activity.git
+   cd Group-Activity
+2. Install dependencies
+No external libraries required beyond the Python standard library.
+
+3. Run the script
+   ```bash
+   python shortest_path.py
+
+## 🧩 How It Works
+Greedy Walkthrough:
+
+Initialize source cost (DBN) = 0, others = ∞.
+
+At each step, pick the unvisited node with the smallest cost.
+
+Update neighbor costs and mark nodes as visited.
+
+Repeat until the destination is reached.
+
+Dijkstra Function:
+
+dijkstra(graph, start): returns (distances, previous_nodes).
+
+reconstruct_path(prev, start, end): builds the path list from start to end.
+
+## 📜 Example Output
+```bash
+Shortest distances: {'DBN': 0, 'PMB': 89, 'RBY': 112, 'HMT': 212, 'VRT': 218, 'JHB': 324}
+Shortest path from DBN to JHB: ['DBN', 'RBY', 'VRT', 'JHB']
+
 
